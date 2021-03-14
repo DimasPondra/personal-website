@@ -1,0 +1,483 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+header {
+  padding-bottom: 50px;
+  background-color: #272D27;
+}
+
+header .container .navbar {
+  padding: 20px 0 0 0;
+}
+
+header .container .navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFC529;
+}
+
+header .container .navbar .navbar-brand:hover {
+  color: #FFC529;
+}
+
+header .container .navbar .navbar-nav .nav-link {
+  margin-left: 10px;
+  padding-left: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+header .container .navbar .navbar-nav .nav-link.active {
+  font-weight: 500;
+  color: #FFC529;
+}
+
+header .container .navbar .navbar-nav .nav-link:hover {
+  color: #FFC529;
+}
+
+header .container .content-header {
+  margin-top: 75px;
+}
+
+header .container .content-header .owner {
+  height: 360px;
+}
+
+header .container .content-header .owner img {
+  height: 100%;
+}
+
+header .container .content-header .description {
+  padding: 0px;
+  margin-left: 10px;
+}
+
+header .container .content-header .description p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #FFC529;
+}
+
+header .container .content-header .description h1 {
+  margin-top: 30px;
+  line-height: 65px;
+  color: #FFFFFF;
+}
+
+header .container .content-header .description .btn-action {
+  margin-top: 60px;
+}
+
+header .container .content-header .description .btn-action ul {
+  padding: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .content-header .description .btn-action ul li .btn-primary {
+  font-size: 18px;
+  font-weight: 500;
+  width: 160px;
+  height: 50px;
+  line-height: 40px;
+  background-color: #FFC529;
+  color: #272D27;
+  border: none;
+}
+
+header .container .content-header .description .btn-action ul li .btn-primary:hover {
+  background-color: #f0b002;
+}
+
+header .container .content-header .description .btn-action ul li .btn-secondary {
+  font-size: 18px;
+  font-weight: 500;
+  width: 160px;
+  height: 50px;
+  line-height: 35px;
+  background-color: #272D27;
+  border: 1px solid #FFC529;
+}
+
+header .container .content-header .description .btn-action ul li .btn-secondary:hover {
+  color: #FFC529;
+}
+
+header .container .social-media {
+  margin-top: 100px;
+}
+
+header .container .social-media ul {
+  padding: 0px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .social-media img {
+  margin-left: 20px;
+  width: 25px;
+}
+
+main .expertise {
+  padding: 50px 0 50px;
+}
+
+main .expertise .title-expertise {
+  color: #272D27;
+}
+
+main .expertise .content-expertise {
+  margin-top: 50px;
+}
+
+main .expertise .content-expertise .card-body {
+  padding: 30px;
+  width: 280px;
+  height: 240px;
+  border: 1px solid #D7D7D7;
+  border-radius: 10px;
+}
+
+main .expertise .content-expertise .card-body h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #272D27;
+}
+
+main .expertise .content-expertise .card-body p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #272D27;
+}
+
+main .portfolio {
+  padding-bottom: 100px;
+}
+
+main .portfolio .content-portfolio p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 44px;
+  color: #272D27;
+}
+
+main .portfolio .content-portfolio .btn-primary {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 160px;
+  height: 50px;
+  line-height: 40px;
+  background-color: #FFC529;
+  color: #272D27;
+  border: none;
+}
+
+main .portfolio .content-portfolio .btn-primary:hover {
+  background-color: #f0b002;
+}
+
+main .portfolio .content-portfolio .slider-portfolio {
+  margin-top: 200px;
+}
+
+main .portfolio .content-portfolio .slider-portfolio .card-body {
+  width: 320px;
+  height: 320px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #D7D7D7;
+}
+
+main .portfolio .content-portfolio .slider-portfolio .card-body img {
+  width: 100%;
+}
+
+main .contact-me {
+  background-color: #272D27;
+  padding: 50px 0px;
+}
+
+main .contact-me .description h1 {
+  color: #FFC529;
+  margin-bottom: 30px;
+}
+
+main .contact-me .description p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+main .contact-me .description .btn-primary {
+  margin-top: 60px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 160px;
+  height: 50px;
+  line-height: 40px;
+  background-color: #FFC529;
+  color: #272D27;
+  border: none;
+}
+
+main .contact-me .description .btn-primary:hover {
+  background-color: #f0b002;
+}
+
+main .contact-me .illustration img {
+  margin-left: auto;
+  width: 320px;
+}
+
+main .blog {
+  padding: 50px 0px;
+}
+
+main .blog .title-blog {
+  margin-bottom: 50px;
+}
+
+main .blog .content-blog .card {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #D7D7D7;
+}
+
+main .blog .content-blog .card .card-body {
+  padding: 0px;
+}
+
+main .blog .content-blog .card .card-body .card-title {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #272D27;
+}
+
+main .blog .content-blog .card .card-body .card-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  color: #909990;
+}
+
+main .blog .content-blog .card .card-body .card-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #272D27;
+}
+
+main .blog .content-blog .card .card-body a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFC529;
+}
+
+main .blog .content-blog .card .card-body a:hover {
+  text-decoration: none;
+  color: #f5b400;
+}
+
+main .mail {
+  margin-top: 50px;
+  padding: 50px 0px;
+  background-color: #272D27;
+}
+
+main .mail .title-mail h1 {
+  color: #FFC529;
+  margin-bottom: 30px;
+}
+
+main .mail .title-mail p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+main .mail .form-mail form label {
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+main .mail .form-mail form label span {
+  color: #FFC529;
+}
+
+main .mail .form-mail form .form-control {
+  background-color: #272D27;
+  border: 1px solid #FFC529;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+
+main .mail .form-mail form .btn-primary {
+  font-size: 18px;
+  font-weight: 500;
+  width: 100px;
+  height: 50px;
+  line-height: 40px;
+  background-color: #FFC529;
+  color: #272D27;
+  border: none;
+}
+
+main .mail .form-mail form .btn-primary:hover {
+  background-color: #f0b002;
+}
+
+footer {
+  background-color: #303330;
+}
+
+footer .container {
+  padding: 25px 0px;
+}
+
+footer .container p {
+  margin: 0px 10px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFC529;
+}
+
+footer .container p a {
+  text-decoration: none;
+  color: #ff4b4b;
+}
+
+@media (max-width: 767.98px) {
+  body h1 {
+    font-size: 22px;
+  }
+  header {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  header .container .content-header {
+    margin: 30px 0 0 0;
+    padding: 0px;
+  }
+  header .container .content-header .owner {
+    height: 240px;
+  }
+  header .container .content-header .description {
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 0px;
+  }
+  header .container .content-header .description p {
+    font-size: 16px;
+  }
+  header .container .content-header .description h1 {
+    margin-top: 0px;
+    line-height: 40px;
+  }
+  header .container .content-header .description .btn-action {
+    margin-top: 30px;
+  }
+  header .container .content-header .description .btn-action ul {
+    display: block;
+  }
+  header .container .content-header .description .btn-action ul li {
+    margin-bottom: 15px;
+  }
+  header .container .content-header .description .btn-action ul li .btn-secondary {
+    margin-left: 0px !important;
+  }
+  header .container .social-media {
+    margin-top: 30px;
+  }
+  header .container .social-media img {
+    margin-left: 0px;
+    margin: 0 5px 0 5px;
+    width: 20px;
+  }
+  main .expertise .content-expertise .card-body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  main .portfolio {
+    text-align: center;
+  }
+  main .portfolio .content-portfolio p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  main .portfolio .content-portfolio .slider-portfolio {
+    margin-top: 10px;
+  }
+  main .portfolio .content-portfolio .slider-portfolio .card-body {
+    width: 300px;
+    height: 300px;
+  }
+  main .contact-me {
+    text-align: center;
+  }
+  main .contact-me .description p {
+    padding: 0px 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  main .contact-me .description .btn-primary {
+    margin-top: 20px;
+  }
+  main .contact-me .illustration img {
+    margin-top: 50px;
+    margin-right: auto;
+    width: 300px;
+  }
+  main .blog .title-blog {
+    margin-bottom: 30px;
+  }
+  main .blog .content-blog .card {
+    margin-bottom: 10px;
+  }
+  main .mail {
+    margin-top: 20px;
+  }
+  main .mail .title-mail {
+    text-align: center;
+  }
+  main .mail .title-mail p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  main .mail .form-mail form label {
+    font-size: 14px;
+  }
+  main .mail .form-mail form .btn-primary {
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    line-height: 25px;
+  }
+  footer .container p {
+    margin: 0px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFC529;
+  }
+}
+/*# sourceMappingURL=main.css.map */
